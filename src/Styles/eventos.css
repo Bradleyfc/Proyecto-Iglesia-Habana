@@ -28,7 +28,7 @@ nav {
     opacity: 0.5;
 }
 
-#Cursos {
+#Eventos {
     opacity: 100;
 }
 
@@ -56,82 +56,6 @@ nav {
     margin-left: 50px;
     margin-top: 40px;
 
-}
-
-
-
-/*los cursos*/
-
-
-
-
-.contenedorNoticias {
-    /*display: flex;*/
-    justify-content: space-between;
-    max-width: 800px;
-    margin-left:  600px;
-    padding: 40px;
- 
-    background-color: black;
-}
-
-.columna {
-    display: flex;
-    
-    margin: 30px 0px;
-    background: #f5f5f5;
-    padding: 15px;
-    border-radius: 8px;
-
-
-}
-.formatoCursos {
-    margin: 0 40px;
-}
-
-.imagenes {
-    
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 4px;
-    margin-left: 0px;
-    opacity: 100;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-    overflow: hidden;
-
-}
-
-.imagenes :hover {
-
-    transform: scale(1.1);
-}
-
-
-h3 {
-    color: #333;
-    margin-top: 10px;
-}
-
-p {
-    color: #666;
-    line-height: 1.6;
-}
-
-.fechayestudiantes {
-    display: flex;
-
-}
-
-.fechaCurso,
-.cantidadEstudiantes {
-    font-size: 13px;
-    color: #3f3ff3;
-}
-
-.cantidadEstudiantes {
-    margin-left: 5px;
 }
 
 #footer {
