@@ -110,16 +110,6 @@ img {
 
 }
 
-#footer {
-    background-color: gray;
-    width: 1330px;
-
-}
-
-#footerdiv {
-    color: bisque;
-    margin-left: 10px;
-}
 
 
 /* las noticias*/
@@ -190,4 +180,17 @@ p {
 
 .cantidadEstudiantes {
     margin-left: 5px;
+}
+
+
+#footer {
+   background-color: gray;
+    width: 1330px;
+
+}
+
+#footerdiv {
+   
+    margin-left: 10px;
+    color: #f5f5f5;
 }
