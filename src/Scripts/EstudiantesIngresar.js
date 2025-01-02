@@ -13,16 +13,8 @@ loginIngresar.addEventListener('submit', (e) => {
     localStorage.setItem('login_success', JSON.stringify(validUser))*/
     if (validUser) {
         localStorage.setItem('auth', 'true');
-        window.location.href = 'Profesores.html';
+        window.location.href = 'Estudiantes.html';
     } else {
         alert('Usuario o Contraseña Incorrectos');
     }
 });
-
-
-
-/* window.location.href = 'Profesores.html'
-
-
-})*/
-
