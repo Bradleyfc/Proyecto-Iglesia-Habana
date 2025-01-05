@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
-}
+    }
 
 }
 
@@ -36,9 +36,12 @@ nav {
     opacity: 0.5;
 }
 
-#Cursos {
+#Activo {
     opacity: 100;
+
 }
+
+
 
 .menu a:hover {
     color: hsl(0, 93%, 47%);
@@ -71,9 +74,11 @@ nav {
 
 /*los cursos*/
 
-.contenedorCursos, .contenedorLista{
+.contenedorCursos,
+.contenedorLista {
     flex: 1;
 }
+
 .contenedor {
     display: flex;
 }
@@ -83,25 +88,25 @@ nav {
 .contenedorCursos {
     /*display: flex;*/
     justify-content: space-between;
-   
-    margin-left:  40px;
+
+    margin-left: 40px;
     padding: 40px;
     margin-right: 120px;
-    
- 
+
+
     /*background-color: black;*/
 }
 
 .contenedorLista {
     /*display: flex;*/
     justify-content: space-between;
-   
-    margin-right:  40px;
+
+    margin-right: 40px;
     padding: 40px;
     margin-left: 100px;
- 
+
     /*background-color: rgb(230, 193, 193);*/
-    
+
 }
 
 .listas {
@@ -112,27 +117,28 @@ nav {
 
 .columna {
     display: flex;
-    
+
     margin: 30px 0px;
     background: #f5f5f5;
     padding: 15px;
     border-radius: 8px;
-    
+
     width: 600px;
 
 
 
 }
+
 .formatoCursos {
     margin: 0 20px;
     text-align: justify;
 }
 
 .imagenes {
-    
+
     width: 100%;
     height: 200px;
-    object-fit: cover;
+
     border-radius: 4px;
     margin-left: 0px;
     opacity: 100;
@@ -174,9 +180,9 @@ p {
 }
 
 #botonBuscar {
-   margin: 10px 180px;
-   height: 1.3rem;
-   font-size: 15px;
+    margin: 10px 180px;
+    height: 1.3rem;
+    font-size: 15px;
 
 }
 

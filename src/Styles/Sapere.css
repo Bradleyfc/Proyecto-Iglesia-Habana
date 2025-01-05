@@ -28,26 +28,72 @@ h2 {
 
 .fondo {
     height: 20em;
-    background-image: url(../Assets/monedas.jpeg);
+    /*background-image: url(../Assets/monedas.jpeg);*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 77.5em;
     margin: 0 auto;
-    opacity: 50%;
 
 }
 
+
+
+.fondo {
+    position: relative;
+    width: 77.5em;
+    height: 20em;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url('../Assets/monedas.jpeg'),
+
+        background-size: cover;
+    background-position: center; */
+    overflow: hidden;
+
+
+
+}
+
+
+
 .textos-del-fondo {
-    color: black;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.textos-del-fondo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../Assets/monedas.jpeg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    /* Ajusta este valor según necesites */
+    z-index: -1;
 }
 
 .texto-del-fondo-1 {
 
     font-size: 3em;
 
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 6, 7);
+    z-index: 1;
+
+
+
+}
+
+.texto-del-fondo-2 {
+    color: blue;
 }
 
 .texto-del-fondo-3 {
@@ -57,7 +103,7 @@ h2 {
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     line-clamp: 1;
-    color: aliceblue;
+    color: black;
     font-size: 1.2em;
 }
 
@@ -107,7 +153,7 @@ h2 {
 }
 
 .link {
-    color: #0066cc;
+    color: #cc0033;
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
@@ -117,15 +163,25 @@ h2 {
     text-decoration: underline;
 }
 
-.contenedor-de-imagen {
-    width: 200px;
-    align-self: stretch;
-    position: relative;
-}
+/* .contenedor-de-imagen {} */
 
 .imagen {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    height: 90%;
     position: absolute;
     object-fit: cover;
+    width: 200px;
+    /* align-self: stretch; */
+    position: relative;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    border-radius: 8px;
+
+
+}
+
+.contenedor-de-imagen :hover {
+
+    transform: scale(1.1);
 }

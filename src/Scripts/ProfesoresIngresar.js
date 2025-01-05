@@ -15,7 +15,7 @@ loginIngresar.addEventListener('submit', (e) => {
         localStorage.setItem('auth', 'true');
         window.location.href = 'Profesores.html';
     } else {
-        alert('Usuario o Contraseña Incorrectos');
+        alert('Usuario o Contraseña Incorrectos o no está Registrado ');
     }
 });
 

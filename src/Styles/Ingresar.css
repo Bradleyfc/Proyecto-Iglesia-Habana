@@ -1,0 +1,177 @@
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+}
+
+
+nav {
+    width: 100%;
+    /*background-color: #f8f9fa;*/
+    padding: 15px 0;
+
+
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    opacity: 0.5;
+}
+
+#Activo {
+    opacity: 100;
+
+}
+
+.menu a:hover {
+    color: hsl(0, 93%, 47%);
+    opacity: 100;
+    font-size: 20px;
+}
+
+
+.superior {
+    height: 30hv;
+    background-image: url('../Assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1330px;
+
+
+}
+
+#textoCursos {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+
+}
+
+section h1 {
+    font: 3em;
+}
+
+section h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+}
+
+section form {
+    padding: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, .1);
+}
+
+section form label {
+    width: 100%;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+section form input {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border-radius: 9px;
+    border: none;
+    outline-color: rgb(109, 109, 228);
+    background-color: rgb(236, 236, 236);
+}
+
+section form input[type='submit'] {
+    margin-top: 1.5em;
+    background-color: rgb(96, 96, 245);
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+section form input[type='submit']:active {
+    transform: scale(0.97);
+}
+
+section p {
+    margin-top: 1.5em;
+
+}
+
+section p a {
+    text-decoration: none;
+    color: blue;
+}
+
+#salir {
+    background-color: rgb(114, 114, 245);
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 9px;
+    margin-top: 1.5em;
+    font-size: 1em;
+
+}
+
+#salir[type='submit'] :active {
+    transform: scale(0.8);
+}
